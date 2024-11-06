@@ -1,19 +1,118 @@
-<DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fa">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سایت نمونه</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      direction: rtl;
+      text-align: right;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
 
-    <div>
-        <section>
-            <h1>اگه گفتی وقت چیه؟!؟</h1>
-            <h2>!وقت ادامه با گیت و گیت هابه</h2>
-        </section>
+  <!-- Navigation Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">سایت نمونه</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">صفحه اصلی</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">درباره ما</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">خدمات</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">تماس با ما</a>
+        </li>
+      </ul>
     </div>
-    
+  </nav>
+
+  <!-- Image Slider -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">قبلی</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">بعدی</span>
+    </a>
+  </div>
+
+  <!-- About Us -->
+  <section id="about" class="my-5">
+    <div class="container">
+      <h2 class="text-center">درباره ما</h2>
+      <p>اینجا می‌توانید اطلاعاتی درباره شرکت یا سازمان خود قرار دهید.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="my-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">خدمات</h2>
+      <p>اینجا می‌توانید توضیحاتی درباره خدمات یا محصولات خود بنویسید.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="my-5">
+    <div class="container">
+      <h2 class="text-center">تماس با ما</h2>
+      <p>اینجا می‌توانید اطلاعات تماس خود را قرار دهید.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="my-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">سؤالات متداول</h2>
+      <p>اینجا می‌توانید پاسخ به سؤالات رایج کاربران را قرار دهید.</p>
+    </div>
+  </section>
+
+  <!-- Privacy Policy and Terms of Use -->
+  <section id="policy" class="my-5">
+    <div class="container">
+      <h2 class="text-center">حریم خصوصی و شرایط استفاده</h2>
+      <p>اینجا می‌توانید سیاست‌های حریم خصوصی و شرایط استفاده از سایت را قرار دهید.</p>
+    </div>
+  </section>
+
+  <!-- Bootstrap and JavaScript Files -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
